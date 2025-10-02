@@ -12,12 +12,13 @@
         android:id="@+id/text_login_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="136dp"
         android:text="Login de Usuário"
+        android:textColor="@color/bojji_preto"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="@color/bojji_preto"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -50,15 +51,15 @@
 
     <Button
         android:id="@+id/button_login"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_height="43dp"
         android:layout_marginTop="24dp"
+        android:backgroundTint="@color/bojji_azul"
         android:text="LOGIN"
         android:textColor="@android:color/white"
-        android:backgroundTint="@color/bojji_azul"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/edit_text_password"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@id/edit_text_password" />
 
     <TextView
         android:id="@+id/registerLink"
