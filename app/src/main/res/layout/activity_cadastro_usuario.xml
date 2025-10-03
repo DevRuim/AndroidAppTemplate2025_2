@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:padding="10dp"
     android:fitsSystemWindows="true"
+    android:background="@color/bojji_fundo"
     tools:context=".ui.usuario.CadastroUsuarioActivity">
 
     <TextView
@@ -15,6 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="Cadastro de Usuário"
+        android:textColor="@color/bojji_preto"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
